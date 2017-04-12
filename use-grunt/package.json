@@ -1,0 +1,17 @@
+{
+  "name": "use-grunt",
+  "version": "0.0.0",
+  "description": "Use grunt and eyeglass module.",
+  "main": "Gruntfile.js",
+  "author": "Rachael L Moore",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eyeglass": "^1.2.1",
+    "eyeglass-sample": "0.0.3",
+    "grunt": "^1.0.1",
+    "grunt-sass": "^2.0.0"
+  },
+  "scripts": {
+    "sass": "grunt sass"
+  }
+}

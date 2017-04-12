@@ -1,0 +1,16 @@
+{
+  "name": "use-custom",
+  "version": "0.0.0",
+  "description": "Use custom eyeglass module.",
+  "main": "sass-runner.js",
+  "author": "Rachael L Moore",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "custom-module": "file:../custom-module",
+    "eyeglass": "^1.2.1",
+    "node-sass": "^4.5.2"
+  },
+  "scripts": {
+    "sass": "node sass-runner.js"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "use-transitive",
+  "version": "0.0.0",
+  "description": "Use transitive eyeglass modules.",
+  "main": "index.js",
+  "author": "Rachael L Moore",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "transitive-module": "file:../transitive-module",
+    "eyeglass": "^1.2.1",
+    "node-sass": "^4.5.2"
+  },
+  "scripts": {
+    "sass": "node sass-runner.js"
+  }
+}

@@ -1,0 +1,6 @@
+@import "custom-module";
+
+.transitive-module {
+  @extend .custom-module;
+  background: green;
+}

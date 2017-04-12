@@ -1,0 +1,16 @@
+{
+  "name": "use-json",
+  "version": "0.0.0",
+  "description": "Use json eyeglass module.",
+  "main": "sass-runner.js",
+  "author": "Rachael L Moore",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eyeglass": "^1.2.1",
+    "eyeglass-sassy-data": "^0.1.3",
+    "node-sass": "^4.5.2"
+  },
+  "scripts": {
+    "sass": "node sass-runner.js"
+  }
+}

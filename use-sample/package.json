@@ -1,0 +1,16 @@
+{
+  "name": "use-sample",
+  "version": "0.0.0",
+  "description": "Use sample eyeglass module.",
+  "main": "sass-runner.js",
+  "author": "Rachael L Moore",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eyeglass": "^1.2.1",
+    "eyeglass-sample": "0.0.3",
+    "node-sass": "^4.5.2"
+  },
+  "scripts": {
+    "sass": "node sass-runner.js"
+  }
+}

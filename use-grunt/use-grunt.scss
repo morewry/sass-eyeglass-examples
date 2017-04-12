@@ -1,0 +1,5 @@
+@import "eyeglass-sample";
+
+.use-grunt {
+  content: hello('eyeglass');
+}

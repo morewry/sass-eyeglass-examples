@@ -1,0 +1,12 @@
+@import "true";
+// @import "true/true"; // no difference for eyeglass-runner
+
+@include test-module('test') {
+  @include test('test') {
+    $test: 1;
+    $expect: 1;
+    @include assert-equal($test, $expect);
+  }
+}
+
+@include report;

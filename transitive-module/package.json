@@ -1,0 +1,16 @@
+{
+  "name": "transitive-module",
+  "version": "0.0.0",
+  "description": "Example custom eyeglass module with an eyeglass module dependency.",
+  "main": "eyeglass-exports.js",
+  "author": "Rachael L Moore",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "custom-module": "file:../custom-module",
+    "eyeglass": "^1.2.1"
+  },
+  "keywords": ["eyeglass-module"],
+  "eyeglass": {
+    "needs": "^1.2.1"
+  }
+}

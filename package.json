@@ -1,0 +1,12 @@
+{
+  "name": "eyeglass-examples",
+  "version": "0.0.0",
+  "description": "Example setups of using eyeglass modules.",
+  "main": "index.js",
+  "author": "Rachael L Moore",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "cd custom-module && npm link && cd ../use-custom && npm link custom-module",
+    "test": ""
+  }
+}

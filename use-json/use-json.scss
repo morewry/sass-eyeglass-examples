@@ -1,0 +1,7 @@
+@import "sassy-data";
+
+$package-config: import-json('package.json');
+
+/*
+  #{$package-config}
+*/

@@ -1,0 +1,5 @@
+@import "transitive-module";
+
+.use-transitive {
+  @extend .transitive-module;
+}

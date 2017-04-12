@@ -1,0 +1,5 @@
+@import "eyeglass-sample";
+
+.use-gulp {
+  content: hello('eyeglass');
+}

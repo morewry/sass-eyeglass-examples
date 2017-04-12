@@ -1,0 +1,17 @@
+{
+  "name": "use-gulp",
+  "version": "0.0.0",
+  "description": "Use gulp and eyeglass module.",
+  "main": "gulpfile.js",
+  "author": "Rachael L Moore",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eyeglass": "^1.2.1",
+    "eyeglass-sample": "0.0.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "sass": "gulp sass"
+  }
+}
