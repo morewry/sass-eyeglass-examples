@@ -5,8 +5,10 @@
   "main": "index.js",
   "author": "Rachael L Moore",
   "license": "UNLICENSED",
+  "dependencies": {
+    "transitive-module": "file:../transitive-module"
+  },
   "devDependencies": {
-    "transitive-module": "file:../transitive-module",
     "eyeglass": "^1.2.1",
     "node-sass": "^4.5.2"
   },

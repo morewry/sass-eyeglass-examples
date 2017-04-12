@@ -5,8 +5,10 @@
   "main": "eyeglass-exports.js",
   "author": "Rachael L Moore",
   "license": "UNLICENSED",
+  "dependencies": {
+    "custom-module": "file:../custom-module"
+  },
   "devDependencies": {
-    "custom-module": "file:../custom-module",
     "eyeglass": "^1.2.1"
   },
   "keywords": ["eyeglass-module"],
